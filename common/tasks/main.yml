@@ -3,8 +3,8 @@
 - name: install packages
   apt: name={{item}} state=installed
   with_items:
-        - tree
-        - mc
-        - htop
-        - ncdu
-        - links
+      - tree
+      - mc
+      - htop
+      - ncdu
+      - links
